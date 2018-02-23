@@ -145,7 +145,7 @@ namespace SkimmerScanner
                     status.Append("\nDevice " + device.Name + " found @ " + device.Address);
                     _view.FindViewById<ScrollView>(Resource.Id.scrollView1).FullScroll(Android.Views.FocusSearchDirection.Down);
 
-                    if (device.Name == "HC-05") {
+                    if (device.Name.Substring(0,4) == "HC-0") {
                         HC05Found = true;
                         PairHC(_view, device);
                     }
