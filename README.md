@@ -5,7 +5,7 @@ Skimmer Scanner: A Gas Pump Skimmer Detection App by SparkX
 
 [*The inside of a bluetooth gas pump skimmer*](https://learn.sparkfun.com/tutorials/gas-pump-skimmers)
 
-The Skimmer Scanner is a free, open source app that detects common bluetooth based credit card skimmers predominantly found in gas pumps. The app scans for available bluetooth connections looking for a device with title **HC-05**. If found, the app will attempt to connect using the default password of 1234. Once connected, the letter 'P' will be sent. If a response of 'M' then there is a very high likelihood there is a skimmer in the bluetooth range of your phone (5 to 15 feet).
+The Skimmer Scanner is a free, open source app that detects common bluetooth based credit card skimmers predominantly found in gas pumps. The app scans for available bluetooth connections looking for a device starting with **HC-0**. If found, the app will attempt to connect using the default password of 1234. Once connected, the letter 'P' will be sent. If a response of 'M' then there is a very high likelihood there is a skimmer in theCreateBond bluetooth range of your phone (5 to 15 feet).
 
 The app *does not* obtain or download data from a given skimmer nor does it report any information to local authorities.
 
